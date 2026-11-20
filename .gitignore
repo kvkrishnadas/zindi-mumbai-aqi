@@ -1,0 +1,21 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+# Never commit datasets, cached tables, models, or submissions to Git
+data/
+submissions/
+*.csv
+*.parquet
+*.zip
+*.gz
+.venv/
+.env
+# Exception: DO track our tiny Experiment Log CSV inside docs/
+!docs/02_Experiment_Log.csv

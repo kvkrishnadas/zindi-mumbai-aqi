@@ -1,0 +1,33 @@
+[project]
+name = "zindi-mumbai-aqi"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Krishnadas", email = "k.krishnadas.v@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "catboost>=1.2.10",
+    "lightgbm>=4.7.0",
+    "numpy>=2.5.5",
+    "optuna>=5.1.0",
+    "pandas>=3.1.1",
+    "pyarrow>=26.0.1",
+    "scikit-learn>=1.9.1",
+    "scipy>=1.18.1",
+    "xgboost>=3.4.1",
+]
+
+[project.scripts]
+zindi-mumbai-aqi = "zindi_mumbai_aqi:main"
+
+[build-system]
+requires = ["uv_build>=0.13.9,<0.14.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+    "nbstripout>=0.9.2",
+]
