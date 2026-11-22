@@ -1,0 +1,39 @@
+{
+  "winning_mode": "M1_Base_2025_26 (8-Branch CPU)",
+  "blend_scheme": "horizon_regime_gated",
+  "gated_params": [
+    1.0,
+    0.0,
+    0.5
+  ],
+  "pooled_cv_rmse": 23.983,
+  "w1_w5_cv_rmse": 12.2046,
+  "runtime_sec": 172.17,
+  "unlocked_windows": {
+    "W1_Oct22_23": {
+      "raw_rmse": 10.0811,
+      "clean_rmse": 10.0811,
+      "n": 179
+    },
+    "W2_Oct27_28": {
+      "raw_rmse": 18.2906,
+      "clean_rmse": 18.2906,
+      "n": 137
+    },
+    "W3_Nov01_02": {
+      "raw_rmse": 6.8902,
+      "clean_rmse": 6.8902,
+      "n": 166
+    },
+    "W4_Nov05_06": {
+      "raw_rmse": 9.3587,
+      "clean_rmse": 9.3587,
+      "n": 175
+    },
+    "W5_Nov08_10_LB": {
+      "raw_rmse": 104.549,
+      "clean_rmse": 104.549,
+      "n": 201
+    }
+  }
+}

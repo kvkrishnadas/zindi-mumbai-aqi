@@ -1,0 +1,30 @@
+{
+  "seed": 42,
+  "clip_cap": 230.0,
+  "mean_blend": 0.55,
+  "prior_weights": [
+    0.25,
+    0.35,
+    0.4
+  ],
+  "tau_fast": 42.0,
+  "tau_slow": 160.0,
+  "align_method_2024": "hour_med_iqr",
+  "hist_2024_months": [
+    10,
+    11,
+    12
+  ],
+  "hist_2024_sample_weight": 0.25,
+  "candidate_log_weights": [
+    0.35,
+    0.5,
+    0.65,
+    0.75,
+    0.85,
+    0.9,
+    1.0
+  ],
+  "benchmark_cv_rmse": 24.6137,
+  "res_scale": 1.08
+}
